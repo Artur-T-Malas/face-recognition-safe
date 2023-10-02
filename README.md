@@ -4,11 +4,25 @@
 
 Author: **Artur T. Małas**
 
-This software was a part of my Bachelor of Engineering thesis "*Development of an automatic device for issuing keys*" at Łódź University of Technology in 2023. 
+This software is based upon a modified part of my Bachelor of Engineering thesis "*Development of an automatic device for issuing keys*" at Łódź University of Technology in 2023. 
 
-Because of that, most of the names in the code are in polish.
+Because of that, most of the names in the code are (still) in polish.
 
 This application was designed to work on a Raspberry Pi with a webcam and a touchscreen (or keyboard with mouse) connected to a multi-compartment safe.
+
+I'm currently redesigning this application as a hobby project with hopes to find more uses for it. It will ofcourse be translated fully into english.
+
+---
+
+## Used technologies
++ Python (3.10)
++ OpenCV (4.7.0)
++ PyQt (5)
++ SQLAlchemy (2.0)
+
+---
+
+## Thank you
 
 The main inspiration for the face recognition part of this project was a tutorial ["Face recognition using OpenCV and Python: A beginner's guide"](https://www.superdatascience.com/blogs/opencv-face-recognition).
 
